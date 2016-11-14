@@ -1,8 +1,56 @@
-#juke{
-	width: 70%;
+/* set fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+body{
+	margin: 0;
+	font-family: Raleway, sans-serif;
+}
+
+/* set background image, size, placement, etc */
+
+#juke{	
+	width: 100%;
 	height: 750px;
-	background: #ADF28D;
+	margin-top: 0;
+	margin-bottom: 100px;
+	background-image: url("jukebox2.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+ /* play/pause button size, text color, placement, etc. */
+
+#play{
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	margin-top: 100px;
+}
+
+#play:hover{
+	background-color:#B2B2B2;
+}
+
+/* background color, placement, of songs info, and buttons */
+
+#juke2 {
+	width: 325px;
+	height: 300px;
+	text-align: center;
+	padding: 50px 50px 300px 50px;
+	background-color: #F8E9CE;
+	color: black;
 	margin: 0 auto;
+	border-radius: 15px;
+	margin-top: 15px;
+	border: 5px solid black;
+}
+
+
+#juke2 h1{
+	margin-top: 150px;
 }
 
 
